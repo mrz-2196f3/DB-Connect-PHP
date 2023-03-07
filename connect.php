@@ -12,7 +12,7 @@
 
 	// Database connection
 
-	$conn = new mysqli('localhost','root','','test');
+	$conn = new mysqli('localhost','dbuser','passwd','dbTest');
 
 	if($conn->connect_error){
 
